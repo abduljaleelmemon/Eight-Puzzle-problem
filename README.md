@@ -5,9 +5,9 @@ An agent for an Eight puzzle problem. The goal of an agent is to complete the Ei
 ## Problem Description:
 
 •   Available actions are Left, Right, Up, Down, NoOp. \
-•   The termination criterion is that the agent runs out of moves or the puzzle is completed. \
+•   The termination criterion is that the agent runs out of moves or the puzzle is completed. 
 
-Environment announces when this criterion is met and stops the execution. \
+### Environment announces when this criterion is met and stops the execution. 
 
 •   The performance of an agent is calculated after the termination criteria is met. The performance measure of an agent is the (# of correctly placed items) / (number of steps       used). Note that there will be early termination if puzzle is solved before expiry of maximum number of moves. \
 •   The environment is deterministic and partially observable. \
